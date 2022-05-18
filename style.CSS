@@ -1,0 +1,105 @@
+*{
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+
+body {
+    background-image: linear-gradient(to right, rgb(12, 53, 6),  rgb(64, 167, 95), rgb(12, 53, 6));
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-inline-start: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+}
+
+.hexa {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #00ff00;
+    text-align: center;
+}
+
+.hexa_tranp {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #0000ff70;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.RGB {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    background-color: rgb(0,255,255);    
+    text-align: center;
+}
+
+.RGBA {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgba(255, 255, 0, 0.5);
+    text-align: center;
+}
+
+.HSL {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: hsl(260, 50%, 60%);
+    text-align: center;
+    background-repeat: repeat-x;
+}
+
+.HSLA {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: hsl(260, 50%, 60%, 0.3);
+    text-align: center;
+    background-repeat: repeat-x;
+}
+
+.Pre_def {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: red;
+    text-align: center;
+    background-repeat: repeat-x;
+}
+
+.current {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(255, 0, 0); 
+    opacity: 0.5;
+    text-align: center;
+    background-repeat: repeat-x;
+}
+/* --------------- Cabeçalho ---------------- */
+
+.turing {
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+nav {
+  
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    gap: 13px;
+   
+}
+
+.cabeçalho {
+    height: 7vw;
+    width: 98.5vw;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
